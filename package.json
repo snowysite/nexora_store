@@ -1,0 +1,17 @@
+{
+  "name": "nexora-business-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent local full-stack edition of Nexora Business Hub",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
